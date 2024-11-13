@@ -48,13 +48,13 @@ while running:
     position_text = font.render(f"Position: {tuple(agent.position)}", True, P)
     speed_text = font.render(f"Speed: {agent.speed}", True, P)
     ##direction_text = font.render(f"Direction: {agent.direction}", True, P)
-    new_text = font.render(f"MidPosition: {tuple(agent.position)}", True, P)
+    #new_text = font.render(f"MidPosition: {tuple(agent.position)}", True, P)
     
 
     screen.blit(position_text, (10, 10))
     screen.blit(speed_text, (475, 10))
     ##screen.blit(direction_text, (10, 35))
-    screen.blit(new_text, (200, 200))
+    #screen.blit(new_text, (200, 200))
 
     all_sprites.draw(screen)
 
